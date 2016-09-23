@@ -40,6 +40,7 @@ will not run in a hard abort (clicking the x button in the UI twice).
 A lot of the scripts and patterns are thanks to @dmsimard for the [RDO
 Project][rdo].
 
+[jjb]: http://docs.openstack.org/infra/jenkins-job-builder/
 [gluster]: https://github.com/gluster/glusterfs-patch-acceptance-tests
 [cico]: http://python-cicoclient.readthedocs.org/en/latest/
 [shell]: http://docs.openstack.org/infra/jenkins-job-builder/builders.html#builders.shell
