@@ -37,7 +37,7 @@ catch all failures and soft abort (clicking the x button in the UI once). This
 will not run in a hard abort (clicking the x button in the UI twice).
 
 # Credits
-A lot of the scripts and patterns are thanks to [dmsimard][dmsimard] for the
+The scripts and patterns are extracted from [dmsimard's][dmsimard] work for the
 [RDO Project][rdo].
 
 [jjb]: http://docs.openstack.org/infra/jenkins-job-builder/
