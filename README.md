@@ -37,8 +37,8 @@ catch all failures and soft abort (clicking the x button in the UI once). This
 will not run in a hard abort (clicking the x button in the UI twice).
 
 # Credits
-A lot of the scripts and patterns are thanks to @dmsimard for the [RDO
-Project][rdo].
+A lot of the scripts and patterns are thanks to [dmsimard][dmsimard] for the
+[RDO Project][rdo].
 
 [jjb]: http://docs.openstack.org/infra/jenkins-job-builder/
 [gluster]: https://github.com/gluster/glusterfs-patch-acceptance-tests
@@ -46,3 +46,4 @@ Project][rdo].
 [shell]: http://docs.openstack.org/infra/jenkins-job-builder/builders.html#builders.shell
 [posttask]: http://docs.openstack.org/infra/jenkins-job-builder/publishers.html#publishers.post-tasks
 [rdo]: https://github.com/rdo-infra/ci-config
+[dmsimard]: https://github.com/dmsimard
