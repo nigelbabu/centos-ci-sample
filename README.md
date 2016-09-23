@@ -30,11 +30,12 @@ If you have more than one host, you may want to add an extra shell script to
 convert the host file into an ansible host file.
 
 ### Publisher
-To release the node, you need to use a [post-task][posttask]publisher. This way
-even when the job fails, the nodes are released back into the pool. We match
-the line "Building remotely" which should happen on every single job. This will
-catch all failures and soft abort (clicking the x button in the UI once). This
-will not run in a hard abort (clicking the x button in the UI twice).
+To release the node, you need to use a [post-task][posttask] publisher. This
+way even when the job fails, the nodes are released back into the pool. We
+match the line "Building remotely" which should happen on every single job.
+This will catch all failures and soft abort (clicking the x button in the UI
+once). This will not run in a hard abort (clicking the x button in the UI
+twice).
 
 # Credits
 The scripts and patterns are extracted from [dmsimard's][dmsimard] work for the
