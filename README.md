@@ -13,7 +13,7 @@ You need to set your ci.centos.org API key when connecting to the nodes as
 environment variables on your slave node(s).
 
 This is done in ``Managed Jenkins`` -> ``Managed Nodes`` -> <*node*> ->
-``Configure`` -> ``Node properties`` -> ``Environment variables`` -> ``Add``::
+``Configure`` -> ``Node properties`` -> ``Environment variables`` -> ``Add``:
 
 ```
 name: CICO_API_KEY
@@ -36,7 +36,12 @@ the line "Building remotely" which should happen on every single job. This will
 catch all failures and soft abort (clicking the x button in the UI once). This
 will not run in a hard abort (clicking the x button in the UI twice).
 
+# Credits
+A lot of the scripts and patterns are thanks to @dmsimard for the [RDO
+Project][rdo].
+
 [gluster]: https://github.com/gluster/glusterfs-patch-acceptance-tests
 [cico]: http://python-cicoclient.readthedocs.org/en/latest/
 [shell]: http://docs.openstack.org/infra/jenkins-job-builder/builders.html#builders.shell
 [posttask]: http://docs.openstack.org/infra/jenkins-job-builder/publishers.html#publishers.post-tasks
+[rdo]: https://github.com/rdo-infra/ci-config
